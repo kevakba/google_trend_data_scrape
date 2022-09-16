@@ -1,1 +1,3 @@
-# google_trend_data_scrape
+The main idea is to use 'pytrends' library to scrape the data from Google Trend website. Here is the [link](https://pypi.org/project/pytrends/) to the documentation of the referred library. It is an unofficial API for Google Trends. 
+
+We note that hourly-granularity data are fetched by choosing a window size of a week, weekly-granularity data by choosing a window size of a year, and monthly-granularity data by choosing the higher window size. Now since the aim is to fetch the hourly and the weekly data, we have to run the code multiple times with the customer time window to get the data with the required granularity. The entire code is provided in the attached Jupyter Notebook. The code is straightforward. Please refer to the library documentation to get to know about the different arguments of the function. 
